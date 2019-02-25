@@ -22,21 +22,20 @@ body {
     z-index: 1;
 }
 
-.top-bar__menu {
+.top-bar__icon {
     float: left;
-    font-size: 25px;
-    padding: 10px;
-    cursor: pointer;
-    color: white;
+    height: 100%;
+    padding: 0 10px;
 }
 
-.top-bar__menu i:hover {
-    color: #d4cde8
+.top-bar__icon img{
+    height: 40px;
+    padding-top: 2.5px;
 }
 
 .top-bar__title {
+    float: left;
     font-size: 30px;
-    text-align: center;
     user-select: none;
 }
 
@@ -104,6 +103,7 @@ body {
     flex-wrap: nowrap;
     overflow-x: auto;
     height: calc(100% - 45px);
+    justify-content: center;
     /* padding: 0 0 20px 0; */
 }
 
