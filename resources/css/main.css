@@ -103,7 +103,7 @@ body {
     flex-wrap: nowrap;
     overflow-x: auto;
     height: calc(100% - 45px);
-    justify-content: center;
+    /* justify-content: center; */
     /* padding: 0 0 20px 0; */
 }
 
@@ -117,10 +117,9 @@ body {
     padding: 0;
     margin: 20px;
     height: calc(100% - 40px);
-    width: 33.33%;
-    min-width: 500px;
-    min-height: 400px;
     position: relative;
+    min-width: 450px;
+    flex-basis: 50%;
 }  
 
 .card:hover {
